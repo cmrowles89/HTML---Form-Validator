@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+/* Selects the root element of the document:
+   <html> in the case of HTML */
 :root{
   --success-color:#2ecc71;
   --error-color:#e74c3c;
 }
-
+/* Univeral selector * to size border box */
 *{
   box-sizing: border-box;
 }
